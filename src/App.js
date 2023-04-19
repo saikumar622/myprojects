@@ -20,6 +20,7 @@ const projectsList = [
     title: 'Music Page',
     description:
       'The music page enables the users to browse through the images of all-time favorite music albums.',
+    url: 'https://musicpage8522.ccbp.tech/',
   },
   {
     projectId: 1,
@@ -28,14 +29,17 @@ const projectsList = [
     title: 'Tourism Website',
     description:
       'A tourism website enables the user to browse through the images of popular destinations.',
+    url: 'https://tourismweb8522.ccbp.tech/',
   },
   {
     projectId: 2,
     category: 'STATIC',
-    imageURL: 'https://assets.ccbp.in/frontend/react-js/projects-s1-img.png',
-    title: 'Advanced Technologies',
+    imageURL:
+      'https://res.cloudinary.com/dqdlpjyhw/image/upload/v1681913439/WhatsApp_Image_2023-04-19_at_19.39.52_ynmeja.jpg',
+    title: 'My Projects',
     description:
       'A website that gives you a basic understanding of Advanced Technologies.',
+    url: 'https://projstaticsai.ccbp.tech/',
   },
   {
     projectId: 4,
@@ -51,6 +55,7 @@ const projectsList = [
     imageURL: 'https://assets.ccbp.in/frontend/react-js/projects-r2-img.png',
     title: 'Food Munch',
     description: 'Food Much Website is a user-centric food tech website.',
+    url: 'https://fdmnchsai8522.ccbp.tech/',
   },
   {
     projectId: 6,
@@ -60,6 +65,15 @@ const projectsList = [
     description:
       'A portfolio is the best alternative for a resume to showcase your skills to the digital world.',
   },
+  {
+    projectId: 7,
+    category: 'RESPONSIVE',
+    imageURL:
+      'https://res.cloudinary.com/dqdlpjyhw/image/upload/v1681901647/WhatsApp_Image_2023-04-19_at_16.17.01_1_f9ynuz.jpg',
+    title: 'Theme Changer',
+    description: 'Theme Changer is Webpage, in which user can toggle the theme',
+    url: 'https://themechangersai.ccbp.tech/',
+  },
 
   {
     projectId: 8,
@@ -68,6 +82,7 @@ const projectsList = [
     title: 'Speed Typing Test',
     description:
       'Speed Typing Test Application is capable of calculating the time to type the randomly generated quote.',
+    url: 'https://typingtest8522.ccbp.tech/',
   },
   {
     projectId: 9,
@@ -76,6 +91,7 @@ const projectsList = [
     title: 'Random Joke Page',
     description:
       'Random Joke Page is an API-based dynamic Web Application that generates a new joke.',
+    url: 'https://randomjoke8522.ccbp.tech/',
   },
   {
     projectId: 10,
@@ -84,6 +100,26 @@ const projectsList = [
     title: 'Sizing An Image',
     description:
       'This is a dynamic web application capable of adjusting the size of an element using DOM manipulations.',
+    url: 'https://sizingimg8522.ccbp.tech/',
+  },
+  {
+    projectId: 11,
+    category: 'DYNAMIC',
+    imageURL:
+      'https://res.cloudinary.com/dqdlpjyhw/image/upload/v1681903574/WhatsApp_Image_2023-04-19_at_16.55.30_glyblx.jpg',
+    title: 'Wikipidia',
+    description:
+      'This is a dynamic web application ,User acn type any keyword to search',
+  },
+  {
+    projectId: 12,
+    category: 'DYNAMIC',
+    imageURL:
+      'https://res.cloudinary.com/dqdlpjyhw/image/upload/v1681905168/WhatsApp_Image_2023-04-19_at_17.22.03_ze9dsq.jpg',
+    title: 'Bomb Defuser',
+    description:
+      'This is a dynamic web application User can Guess key to stop defusing of Bomb',
+    url: 'https://bombdefuse8522.ccbp.tech/',
   },
 ]
 

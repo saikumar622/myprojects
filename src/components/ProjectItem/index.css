@@ -7,6 +7,12 @@
   flex-direction: column;
   margin: 15px;
 }
+.btnn {
+  color: #ffffff;
+  background-color: #153261;
+  padding: 12px;
+  border-radius: 10px;
+}
 
 .project-item-image {
   width: 100%;
