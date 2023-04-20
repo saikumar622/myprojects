@@ -1,5 +1,5 @@
-# On - Demand Session
+# My projects list 
 
-- Identifying the State
+- using react displaying of all my projects 
 - Updating the styles based on State
 # myprojects
