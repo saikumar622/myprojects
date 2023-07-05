@@ -122,6 +122,16 @@ const projectsList = [
       'This is a dynamic web application User can Guess key to stop defusing of Bomb',
     url: 'https://bombdefuse8522.ccbp.tech/',
   },
+   {
+    projectId: 12,
+    category: 'DYNAMIC',
+    imageURL:
+      'https://res.cloudinary.com/dqdlpjyhw/image/upload/v1681905168/WhatsApp_Image_2023-04-19_at_17.22.03_ze9dsq.jpg',
+    title: 'Bomb Defuser',
+    description:
+      'This is a dynamic web application User can Guess key to stop defusing of Bomb',
+    url: 'https://bombdefuse8522.ccbp.tech/',
+  },
 ]
 
 class App extends Component {
