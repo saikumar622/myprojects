@@ -123,7 +123,7 @@ const projectsList = [
     url: 'https://bombdefuse8522.ccbp.tech/',
   },
    {
-    projectId: 12,
+    projectId: 13,
     category: 'DYNAMIC',
     imageURL:
       'https://res.cloudinary.com/dqdlpjyhw/image/upload/v1681905168/WhatsApp_Image_2023-04-19_at_17.22.03_ze9dsq.jpg',
