@@ -110,7 +110,7 @@ const projectsList = [
     title: 'Wikipidia',
     description:
       'This is a dynamic web application ,User acn type any keyword to search',
-    url:"https://miniwikisai.ccbp.tech/"
+    url:"https://miniwikisai.ccbp.tech/",
   },
   {
     projectId: 12,
