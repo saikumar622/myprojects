@@ -1,17 +1,36 @@
 .project-item-container {
   width: 339px;
-  background: #ffffff;
+  background: #c2e09f;
   box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.06);
   border-radius: 12px;
   display: flex;
   flex-direction: column;
   margin: 15px;
+  transition: transform 0.3s ease;
 }
+
+.project-item-container:hover {
+  transform: translateY(-15px);
+}
+
 .btnn {
-  color: #ffffff;
-  background-color: #153261;
+  /* color: #d11db3; */
+  background-color: #76c205;
   padding: 12px;
   border-radius: 10px;
+  transition: background-color 0.3s ease;
+
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btnn:hover {
+  background-color: #d11db3;
+  color: #fff;
 }
 
 .project-item-image {
