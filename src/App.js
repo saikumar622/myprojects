@@ -3,6 +3,9 @@ import {Component} from 'react'
 import TabItem from './components/TabItem'
 import ProjectItem from './components/ProjectItem'
 import Header from './components/Header'
+import AboutMe from './components/AboutMe'
+// eslint-disable-next-line import/extensions
+import Footer from './components/Footer'
 
 import './App.css'
 
@@ -45,9 +48,10 @@ const projectsList = [
     projectId: 4,
     category: 'RESPONSIVE',
     imageURL: 'https://assets.ccbp.in/frontend/react-js/projects-r4-img.png',
-    title: 'VR Website',
+    title: 'Destinations',
     description:
-      'VR Website enables users to explore AR and VR Products and Industry happenings.',
+      'Destination Website enables users to explore Destiantions by typing in seachbar',
+    url: 'https://dessearchsai.ccbp.tech/',
   },
   {
     projectId: 5,
@@ -64,6 +68,7 @@ const projectsList = [
     title: 'Portfolio',
     description:
       'A portfolio is the best alternative for a resume to showcase your skills to the digital world.',
+    url: 'https://sai8522projects.ccbp.tech/',
   },
   {
     projectId: 7,
@@ -73,6 +78,15 @@ const projectsList = [
     title: 'Theme Changer',
     description: 'Theme Changer is Webpage, in which user can toggle the theme',
     url: 'https://themechangersai.ccbp.tech/',
+  },
+  {
+    projectId: 13,
+    category: 'RESPONSIVE',
+    imageURL:
+      'https://res.cloudinary.com/dqdlpjyhw/image/upload/v1688639184/tropical-fruits-background-with-card-template-palm-tree-leaf_1_gszm99.jpg',
+    title: 'Counter',
+    description: 'Responsive webpage , in which user can update the count',
+    url: 'https://saikumar8522.ccbp.tech/',
   },
 
   {
@@ -110,20 +124,10 @@ const projectsList = [
     title: 'Wikipidia',
     description:
       'This is a dynamic web application ,User acn type any keyword to search',
-    url:"https://miniwikisai.ccbp.tech/",
+    url: 'https://miniwikisai.ccbp.tech/',
   },
   {
     projectId: 12,
-    category: 'DYNAMIC',
-    imageURL:
-      'https://res.cloudinary.com/dqdlpjyhw/image/upload/v1681905168/WhatsApp_Image_2023-04-19_at_17.22.03_ze9dsq.jpg',
-    title: 'Bomb Defuser',
-    description:
-      'This is a dynamic web application User can Guess key to stop defusing of Bomb',
-    url: 'https://bombdefuse8522.ccbp.tech/',
-  },
-   {
-    projectId: 13,
     category: 'DYNAMIC',
     imageURL:
       'https://res.cloudinary.com/dqdlpjyhw/image/upload/v1681905168/WhatsApp_Image_2023-04-19_at_17.22.03_ze9dsq.jpg',
@@ -159,9 +163,9 @@ class App extends Component {
         <Header />
         <h1 className="title">Projects</h1>
         <p className="description">
-          Your skills and achievements showcase your strengths and abilities.
-          Speak about any new skills or software you learnt to perform the
-          project responsibilities.
+          "Welcome to my portfolio! I'm Saikumar, a Student with a passion for
+          frontend engineer. Through this portfolio, I aim to showcase my
+          skills, experience, and the projects I have worked on.
         </p>
 
         <ul className="tabs-container">
@@ -183,6 +187,20 @@ class App extends Component {
             />
           ))}
         </ul>
+        {/* <div>
+          <p className="description">
+            This is my WEB PAGE on my profile which includes my education
+            details and projects i have done so far.i have provided the brief
+            information on the projects i have mentioned, An aspiring software
+            engineer with the ability to grow as an individual and learn in the
+            surrounding of talented people. I am always open for discussions
+            <a href="https://www.linkedin.com/in/saikumar-maddula-7a9b9a205/">
+              @Linkedin
+            </a>
+          </p>
+        </div> */}
+        <AboutMe />
+        <Footer />
       </div>
     )
   }
