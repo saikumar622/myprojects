@@ -18,7 +18,7 @@ const Header = () => (
           <li>
             <img
               className="social-network-img"
-              src="https://assets.ccbp.in/frontend/react-js/projects-github-img.png"
+              src="https://cdn.pixabay.com/photo/2022/01/30/13/33/github-6980894_1280.png"
               alt="Git Hub"
             />
           </li>
