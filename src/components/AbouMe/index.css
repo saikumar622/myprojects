@@ -1,0 +1,58 @@
+.card {
+  width: 100%;
+  background-color: #16bce6;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card-image {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  align-self: center;
+  border-radius: 50%;
+  transition: transform 0.3s ease;
+}
+
+.card-image:hover {
+  transform: scale(1.1);
+}
+
+.card-content {
+  padding: 16px;
+  text-align: center;
+}
+
+.card-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.card-description {
+  font-size: 16px;
+  color: rgb(23, 4, 201);
+  line-height: 1.5;
+}
+.open-pdf-btn {
+  padding: 12px 24px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.open-pdf-btn:hover {
+  background-color: #0056b3;
+}
